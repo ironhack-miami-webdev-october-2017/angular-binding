@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ImageSwitcherComponent } from './image-switcher/image-switcher.component';
+import { CounterComponent } from './counter/counter.component';
+import { MessageComponent } from './message/message.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImageSwitcherComponent
+    ImageSwitcherComponent,
+    CounterComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule
