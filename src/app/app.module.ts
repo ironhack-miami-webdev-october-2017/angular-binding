@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ImageSwitcherComponent } from './image-switcher/image-switcher.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImageSwitcherComponent
   ],
   imports: [
     BrowserModule

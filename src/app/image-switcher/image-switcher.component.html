@@ -1,0 +1,16 @@
+<h2> Image Switcher </h2>
+
+<!--
+  In general, property bindings look like this:
+
+  <tag [attribute]="variable"></tag>
+-->
+<img [src]="currentImage" />
+
+
+<button (click)="switchImage($event)"> Next Image </button>
+<!--
+  In general, EVENT bindings look like this:
+
+  <tag (eventname)="method($event)"></tag>
+-->
