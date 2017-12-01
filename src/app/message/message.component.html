@@ -3,6 +3,7 @@
 <label for="name-input"> What's your name? </label>
 <input  id="name-input" placeholder="e.g. Bruce Wayne"
     [(ngModel)]="theUser.name" />
+<!-- "ngModel" stores the input's value in a property of the class -->
 
 <div *ngIf="theUser.name">
   <p>
@@ -21,5 +22,5 @@
     Submit
   </button>
 
-<!-- "ngModel" stores the input's value in a property of the class -->
-</div>
+  <food-select-widget></food-select-widget>
+</div> <!-- *ngIf="theUser.name" -->

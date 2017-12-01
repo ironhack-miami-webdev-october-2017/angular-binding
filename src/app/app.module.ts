@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ImageSwitcherComponent } from './image-switcher/image-switcher.component';
 import { CounterComponent } from './counter/counter.component';
 import { MessageComponent } from './message/message.component';
+import { FoodSelectComponent } from './food-select/food-select.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { MessageComponent } from './message/message.component';
     AppComponent,
     ImageSwitcherComponent,
     CounterComponent,
-    MessageComponent
+    MessageComponent,
+    FoodSelectComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<h3> Select Your Food Preference </h3>
+
+<p *ngIf="mySelection">
+  Thank you for your selection.
+  {{ selectFeedback }}
+</p>
+
+<select
+    [(ngModel)]="mySelection"
+    (change)="updateFeedback()">
+  <option value=""> Select a food... </option>
+  <option value="pizza">        Pizza </option>
+  <option value="burger">       Burger </option>
+  <option value="french-fries"> French Fries </option>
+  <option value="mofongo">      Mofongo </option>
+  <option value="skins">        Potato Skins </option>
+  <option value="sancocho">     Sancocho </option>
+  <option value="tapioca">      Tapioca </option>
+  <option value="arepa">        Arepa </option>
+  <option value="lobster">      Lobster </option>
+  <option value="ceviche">      Ceviche </option>
+  <option value="mondongo">     Mondongo </option>
+</select>
